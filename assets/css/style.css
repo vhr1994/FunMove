@@ -1484,6 +1484,7 @@ button:focus {
   .ff_header .ff_header_wrapper .ff_logo {
     text-align: center;
     position: initial;
+    margin: 5px auto;
   }
   .ff_header_box {
     display: none;

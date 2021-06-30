@@ -1766,15 +1766,91 @@ button:focus {
 	height: 87px;
 }
 
+.enduranceDiv {
+	text-align: center;
+    margin: 2px;
+    padding: 3px;
+    background-color: #C26212;
+    color: white;
+    border-radius: 5px;
+	position: absolute;
+	width: 14%;
+	font-size: 12px;
+}
+
+.pilatesDiv {
+	text-align: center;
+    margin: 2px;
+    padding: 3px;
+    background-color: #C38913;
+    color: white;
+    border-radius: 5px;
+	position: absolute;
+	width: 14%;
+	font-size: 12px;
+}
+
+.personalDiv {
+	text-align: center;
+    margin: 2px;
+    padding: 3px;
+    background-color: #CFE2E3;
+    color: white;
+    border-radius: 5px;
+	position: absolute;
+	width: 14%;
+	font-size: 12px;
+}
+
+.fbbDiv {
+	text-align: center;
+    margin: 2px;
+    padding: 3px;
+    background-color: #0D8A43;
+    color: white;
+    border-radius: 5px;
+	position: absolute;
+	width: 14%;
+	font-size: 12px;
+}
+
+.calisteniaDiv {
+	text-align: center;
+    margin: 2px;
+    padding: 3px;
+    background-color: #315097;
+    color: white;
+    border-radius: 5px;
+	position: absolute;
+	width: 14%;
+	font-size: 12px;
+}
+
+.weiDiv {
+	text-align: center;
+    margin: 2px;
+    padding: 3px;
+    background-color: #183882;
+    color: white;
+    border-radius: 5px;
+	position: absolute;
+	width: 14%;
+	font-size: 12px;
+}
+
 .openboxDiv div {
 	margin-top:24px;
 }
 
-.classDiv.halfHour {
+.twentyMin {
+	margin-top: 13px !important;
+}
+
+.halfHour {
 	margin-top: 25px;
 }
 
-.classDiv.fortyMin {
+.fortyMin {
 	margin-top: 29px;
 }
 
@@ -1790,6 +1866,12 @@ button:focus {
 	}
 	
 	.classDiv,
+	.enduranceDiv,
+	.personalDiv,
+	.fbbDiv,
+	.calisteniaDiv,
+	.weiDiv,
+	.pilatesDiv,
 	.openboxDiv {
 		margin: 3px;
 		padding: 6px;

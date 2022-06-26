@@ -1763,7 +1763,6 @@ button:focus {
 	position: absolute;
 	width: 14%;
 	font-size: 12px;
-	height: 87px;
 }
 
 .enduranceDiv {
@@ -1838,9 +1837,11 @@ button:focus {
 	font-size: 12px;
 }
 
+/*
 .openboxDiv div {
 	margin-top:24px;
 }
+*/
 
 .twentyMin {
 	margin-top: 13px !important;
@@ -1877,11 +1878,29 @@ button:focus {
 		padding: 6px;
 		width: 76px;
 		font-size: 9px;
+		height: 30px !important;
 	}
 	
+	.classDiv span,
+	.enduranceDiv span,
+	.personalDiv span,
+	.fbbDiv span,
+	.calisteniaDiv span,
+	.weiDiv span,
+	.pilatesDiv span,
+	.openboxDiv span {
+		position: fixed;
+	}
+	
+	.centro_mobile {
+		width: 100%;
+	}
+	
+	/*
 	.openboxDiv {
 		height: 79px;
 	}
+	*/
 	
 	#friday {
 		width: 55px;

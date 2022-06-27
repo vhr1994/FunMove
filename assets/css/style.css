@@ -1911,6 +1911,8 @@ button:focus {
 	#scheduleTable td,
 	#scheduleTable td:first-child {
 		font-size: 13px;
+		min-width: 80px !important;
+    		max-width: 80px !important;
 	}
 }
 

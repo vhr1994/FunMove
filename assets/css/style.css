@@ -1848,11 +1848,11 @@ button:focus {
 }
 
 .halfHour {
-	margin-top: 25px;
+	margin-top: 25px !important;
 }
 
 .fortyMin {
-	margin-top: 29px;
+	margin-top: 29px !important;
 }
 
 @media (max-width: 600px) {

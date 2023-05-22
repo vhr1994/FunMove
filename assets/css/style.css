@@ -224,7 +224,6 @@ button:focus {
   color: #f72222;
 }
 .ff_header {
-  position: absolute;
   top: 0;
   right: auto;
   bottom: auto;
@@ -1693,11 +1692,25 @@ button:focus {
 /*-------- Editable CSS --------*/
 
 #logoId {
-	padding-top: 4%;
+	padding-top: 7%;
 }
 
 .ff_header {
 	background-color: #212731eb;
+}
+
+#homepageImg {
+	display: block;
+	width: 100%;
+}
+
+#homepageMobileImg {
+	display: none;
+	width: 100%;
+}
+
+.horario {
+	width: 100%;
 }
 
 #scheduleTable {
@@ -1859,6 +1872,14 @@ button:focus {
 	#logoId {
 		padding: 1%;
 		width: 50%;
+	}
+	
+	#homepageImg {
+		display: none;
+	}
+
+	#homepageMobileImg {
+		display: block;
 	}
 	
 	#scheduleTable {

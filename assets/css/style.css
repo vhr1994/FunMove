@@ -1701,12 +1701,15 @@ button:focus {
 
 #homepageImg {
 	display: block;
-	width: 100%;
+    margin: auto;
+    width: 40%;
+	margin-top: 35px;
 }
 
 #homepageMobileImg {
 	display: none;
 	width: 100%;
+	margin-top: 35px;
 }
 
 .horario {
